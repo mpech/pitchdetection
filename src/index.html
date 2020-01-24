@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Guitar tuner</title>
+  </head>
+  <body>
+
+    <div class="main">
+
+      <header>
+        <h1>Pitch detection</h1>
+      </header>
+      <p>
+        It uses Yin algorithm. It works (somehow) for my classic guitar.
+      </p>
+
+      <div class="visualizer time-series"></div>
+      <div class="visualizer tuner"></div>
+        
+      </div>
+    </div>
+
+    <aside>
+      Resources
+      <ul>
+        <li><a href="https://github.com/mdn/web-dictaphone">MDN web-dictaphone</a></li>
+        <li><a href="http://audition.ens.fr/adc/pdf/2002_JASA_YIN.pdf">Yin paper</a></li>
+        <li><a href="https://github.com/peterkhayes/pitchfinder">Yin implem</a></li>
+      </ul>
+    </aside>
+    <style>
+      aside { margin-top: 3em; }
+      .visualizer { margin-top: 3em; }
+    </style>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "name": "guitarTuner",
+    "version": "1.0.0",
+    "description": "Tune your guitar via html5",
+    "author": "mpech",
+    "devDependencies": {
+        "esm": "^3.2.25",
+        "mocha": "6.2.2"
+    },
+    "scripts": {
+        "test": "mocha --require esm"
+    },
+    "license": "WTF"
+}

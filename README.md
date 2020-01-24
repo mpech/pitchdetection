@@ -2,7 +2,7 @@
 
 Tune your guitar.
 
-See [demo](https://nodekoko.com/tuner) based on html5 using ```getUserMedia``` and ```AnalyzerNode```
+See [demo](https://nodekoko.com/pitchdetection) based on html5 using ```getUserMedia``` and ```AnalyzerNode```
 
 ## How to use
 
